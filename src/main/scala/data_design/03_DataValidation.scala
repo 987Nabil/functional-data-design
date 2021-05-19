@@ -17,7 +17,7 @@ object SmartApproachAlternative {
   }
 
 
-  case class Age private(val value: Int)
+  case class Age private(value: Int)
 
   object Age {
     def make(value: Int): Validation[Error, Age] =
